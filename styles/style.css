@@ -19,6 +19,7 @@ main{
     width:870px;
     padding:30px;
     margin-top: 22px;
+    border-radius: 10px;
 }
 hr{
     border: 1px solid #D1D1D1;
@@ -92,9 +93,28 @@ hr{
 /*-------------------
     Courses style 
 -------------------*/
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.cours{
+    padding: 15px;
+    box-shadow: 5px 5px 40px grey;
+    border-radius: 15px;
+}
 .cours .cours-banner img{
-    width: 224px;
-    height: 104px;
+    width: 250px;
+    height: 141px;
+}
+.cours-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
 }
 .fa-star.filled{
     color: #FFC014;
