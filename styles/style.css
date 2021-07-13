@@ -1,0 +1,20 @@
+/*--------------
+   Font style 
+--------------*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*-----------------
+    navigation 
+-----------------*/
+
+
+/*--------------------------------
+    common style and utilities 
+--------------------------------*/
+
+body{
+    background-color: #f3f1ff;
+    margin: 0%;
+}
